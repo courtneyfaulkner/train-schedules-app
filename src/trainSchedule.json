@@ -1,0 +1,77 @@
+[
+  {
+    "arrivalTime": "7:41 AM",
+    "destinationTime": "7:54 AM",
+    "trainLine": "MD-N"
+  },
+  {
+    "arrivalTime": "7:50 AM",
+    "destinationTime": "8:03 AM",
+    "trainLine": "NCS"
+  },
+  {
+    "arrivalTime": "7:58 AM",
+    "destinationTime": "8:10 AM",
+    "trainLine": "MD-W"
+  },
+  {
+    "arrivalTime": "8:01 AM",
+    "destinationTime": "8:14 AM",
+    "trainLine": "MD-N"
+  },
+  {
+    "arrivalTime": "8:12 AM",
+    "destinationTime": "8:24 AM",
+    "trainLine": "MD-W"
+  },
+  {
+    "arrivalTime": "8:15 AM",
+    "destinationTime": "8:27 AM",
+    "trainLine": "MD-W"
+  },
+  {
+    "arrivalTime": "8:17 AM",
+    "destinationTime": "8:30 AM",
+    "trainLine": "MD-N"
+  },
+  {
+    "arrivalTime": "8:24 AM",
+    "destinationTime": "8:37 AM",
+    "trainLine": "MD-N"
+  },
+  {
+    "arrivalTime": "8:26 AM",
+    "destinationTime": "8:39 AM",
+    "trainLine": "NCS"
+  },
+  {
+    "arrivalTime": "8:41 AM",
+    "destinationTime": "8:54 AM",
+    "trainLine": "MD-N"
+  },
+  {
+    "arrivalTime": "8:41 AM",
+    "destinationTime": "8:53 AM",
+    "trainLine": "MD-W"
+  },
+  {
+    "arrivalTime": "9:08 AM",
+    "destinationTime": "9:22 AM",
+    "trainLine": "MD-N"
+  },
+  {
+    "arrivalTime": "9:26 AM",
+    "destinationTime": "9:39 AM",
+    "trainLine": "NCS"
+  },
+  {
+    "arrivalTime": "9:32 AM",
+    "destinationTime": "9:55 AM",
+    "trainLine": "MD-W"
+  },
+  {
+    "arrivalTime": "10:08 AM",
+    "destinationTime": "10:32 AM",
+    "trainLine": "MD-N"
+  }
+]

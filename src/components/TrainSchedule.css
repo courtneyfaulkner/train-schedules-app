@@ -1,0 +1,58 @@
+/* Common styles */
+
+.train-schedule-container {
+    margin: 20px;
+  }
+  
+  .train-summary {
+    margin-bottom: 20px;
+  }
+  
+  .train-summary h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .train-summary ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  .train-summary li {
+    margin-bottom: 5px;
+  }
+  
+  .train-schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .train-schedule-table th,
+  .train-schedule-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .highlighted-row {
+    background-color: #cfcfcf;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 768px) {
+    .train-summary {
+      text-align: center;
+    }
+  
+    .train-summary h2 {
+      font-size: 20px;
+    }
+  
+    .train-schedule-table th,
+    .train-schedule-table td {
+      padding: 6px;
+      font-size: 16px;
+    }
+  }
+  
