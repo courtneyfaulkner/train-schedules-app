@@ -13,7 +13,8 @@ I can get other info in the Ventra app and Metra website. However, their UX is b
 ## Goals
 
 - [x] Inbound train schedules between Western Ave and Union Station for 7:41-10:08am trains. Assumes 15 minutes needed to drive to the station and park
-- [ ] Outbound train schedules between Union Station and Wester Ave
+- [ ] Outbound train schedules between Union Station and Western Ave
+- [ ] Dark mode
 - [ ] Static schedule data parser
 - [ ] Track numbers
 - [ ] Pull drive time estimate

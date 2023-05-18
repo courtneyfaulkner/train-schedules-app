@@ -1,23 +1,20 @@
-# Base image
-FROM node:14-alpine
-
+# Name the node stage "builder"
+FROM node:20-alpine AS builder
 # Set working directory
 WORKDIR /app
-
-# Copy package.json and package-lock.json
-COPY package.json package-lock.json ./
-
-# Install dependencies
-RUN npm install --production
-
-# Copy the rest of the application files
+# Copy all files from current directory to working dir in image
 COPY . .
-
 # Build the React app
+RUN npm install --production
 RUN npm run build
 
-# Expose a port (if needed)
-EXPOSE 3000
-
-# Start the application
-CMD ["npm", "start"]
+# nginx state for serving content
+FROM nginx:alpine
+# Set working directory to nginx asset directory
+WORKDIR /usr/share/nginx/html
+# Remove default nginx static assets
+RUN rm -rf ./*
+# Copy static assets from builder stage
+COPY --from=builder /app/build .
+# Containers run nginx with global directives and daemon off
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
