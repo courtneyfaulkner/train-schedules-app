@@ -37,7 +37,7 @@ const TrainSchedule = () => {
     };
 
     const resetToCurrentTime = () => {
-        setNowTime(nowTime);
+        setNowTime(DateTime.local());
     };
 
     const getNextTrainSummary = () => {
